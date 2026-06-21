@@ -18,14 +18,14 @@ export default function HomePage() {
                                 Hola, soy Iker
                             </span>
                             <h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                                Desarrollador de Apps y Backend en crecimiento
+                                Desarrollador de Apps y Backend
                             </h1>
                             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
                                 Soy estudiante de informática que acaba de cursar el Grado Medio de Sistemas Microinformáticos y Redes.
-                                Me encanta diseñar y construir experiencias digitales con un estilo moderno y intuitivo.
+                                Me encanta diseñar y crear programas y aplicaciones de gran utilidad.
                             </p>
                             <p className="mt-4 text-lg leading-8 text-slate-300">
-                                Aprendí por mi cuenta y disfruto más programando que montando hardware. Si quieres ver más de mi trabajo, usa los botones de la parte superior derecha 😊
+                                Aprendí por mi cuenta y disfruto más programando que montando hardware.
                             </p>
 
                             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -52,7 +52,7 @@ export default function HomePage() {
                                 <div className="rounded-3xl border border-slate-800/90 bg-slate-900/80 p-5">
                                     <p className="text-sm uppercase tracking-[0.22em] text-slate-400">Mi enfoque</p>
                                     <p className="mt-4 text-slate-300 leading-7">
-                                        Construyo proyectos con detalles limpios, buena usabilidad y una estética cuidada. Me gusta aprender nuevas tecnologías y aplicarlas en proyectos reales.
+                                        Me gusta aprender nuevas tecnologías y aplicarlas en proyectos reales.
                                     </p>
                                 </div>
 
