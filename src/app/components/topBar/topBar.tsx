@@ -7,7 +7,7 @@ export default function TopBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur-xl shadow-[0_25px_60px_-30px_rgba(15,23,42,0.8)]">
+    <header className="topbar w-full fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
           <span className="text-lg font-semibold tracking-tight text-cyan-300 sm:text-xl">
@@ -16,19 +16,19 @@ export default function TopBar() {
         </div>
 
         <nav className="flex items-center">
-          <ul className="hidden md:flex items-center gap-6 text-slate-200">
+          <ul className="hidden md:flex items-center gap-6">
             <li>
-              <Link className="transition hover:text-cyan-300" href="/">
+              <Link className="nav-link" href="/">
                 Sobre mí
               </Link>
             </li>
             <li>
-              <Link className="transition hover:text-cyan-300" href="/pages/stackTecnologico">
+              <Link className="nav-link" href="/pages/stackTecnologico">
                 Stack Tecnológico
               </Link>
             </li>
             <li>
-              <Link className="transition hover:text-cyan-300" href="/pages/contacto">
+              <Link className="nav-link" href="/pages/contacto">
                 Contacto
               </Link>
             </li>
@@ -54,12 +54,12 @@ export default function TopBar() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-white/10 bg-slate-950/95 px-4 py-4 backdrop-blur-xl">
-          <ul className="flex flex-col gap-2 text-slate-200">
+        <div className="mobile-menu md:hidden px-4 py-4">
+          <ul className="flex flex-col gap-2">
             <li>
               <Link
                 onClick={() => setOpen(false)}
-                className="block rounded-2xl border border-white/10 bg-slate-900/80 px-4 py-3 transition hover:bg-cyan-500/15"
+                className="mobile-link"
                 href="/"
               >
                 Sobre mí
@@ -68,7 +68,7 @@ export default function TopBar() {
             <li>
               <Link
                 onClick={() => setOpen(false)}
-                className="block rounded-2xl border border-white/10 bg-slate-900/80 px-4 py-3 transition hover:bg-cyan-500/15"
+                className="mobile-link"
                 href="/pages/stackTecnologico"
               >
                 Stack Tecnológico
@@ -77,7 +77,7 @@ export default function TopBar() {
             <li>
               <Link
                 onClick={() => setOpen(false)}
-                className="block rounded-2xl border border-white/10 bg-slate-900/80 px-4 py-3 transition hover:bg-cyan-500/15"
+                className="mobile-link"
                 href="/pages/contacto"
               >
                 Contacto
