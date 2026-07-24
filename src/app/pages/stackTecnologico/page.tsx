@@ -81,7 +81,7 @@ export default function StackPage() {
                   <p className="text-sm uppercase tracking-[0.24em] text-slate-400">Frameworks</p>
                 </div>
                 <span className="badge">
-                  4 elementos
+                  3 elementos
                 </span>
               </div>
               <div className="mt-8 grid gap-4">
