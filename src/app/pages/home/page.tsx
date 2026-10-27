@@ -39,10 +39,10 @@ export default function HomePage() {
                   </p>
                   <ul className="mt-4 space-y-3 text-slate-200">
                     <li className="rounded-2xl bg-slate-900/80 px-4 py-3">
-                      Java, C#, Python, JavaScript
+                      Java, Typescript, C#, Python, JavaScript
                     </li>
                     <li className="rounded-2xl bg-slate-900/80 px-4 py-3">
-                      Spring Boot, .NET, Flutter
+                      Spring Boot, Next.JS, .NET, Flutter
                     </li>
                     <li className="rounded-2xl bg-slate-900/80 px-4 py-3">
                       Aplicaciones móviles y Backend
@@ -66,7 +66,7 @@ export default function HomePage() {
                     <div className="mt-6 grid gap-3 sm:grid-cols-2">
                       <div className="rounded-2xl bg-slate-900/70 px-4 py-3">
                         <p className="text-sm uppercase tracking-[0.18em] text-slate-300">
-                          Grado Medio
+                          Grado Medio (SMR)
                         </p>
                         <p className="mt-2 text-sm font-semibold text-emerald-300 opacity-0 transition duration-300 group-hover:opacity-100">
                           Completado
@@ -74,7 +74,7 @@ export default function HomePage() {
                       </div>
                       <div className="rounded-2xl bg-slate-900/70 px-4 py-3">
                         <p className="text-sm uppercase tracking-[0.18em] text-slate-300">
-                          Grado Superior
+                          Grado Superior (DAM)
                         </p>
                         <p className="mt-2 text-sm font-semibold text-amber-300 opacity-0 transition duration-300 group-hover:opacity-100">
                           En progreso
